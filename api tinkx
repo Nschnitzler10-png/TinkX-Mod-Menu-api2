@@ -1,0 +1,52 @@
+{
+  "api_name": "TinkX API",
+  "version": "1.0.0",
+  "motd": "Welcome to TinkX Mod Menu! The official console network is active.",
+  "roles": {
+    "owners": [
+      {
+        "userId": "BA8D17C16EF44F07",
+        "name": "Leon (Owner)"
+      }
+    ],
+    "super_admins": [
+      {
+        "userId": "8BF00A2171110220",
+        "name": "Super Admin 1"
+      },
+      {
+        "userId": "1BF3D8452F427AEA",
+        "name": "Super Admin 2"
+      }
+    ],
+    "admins": [
+      {
+        "userId": "F641264BC1E4B9C9",
+        "name": "Admin 1"
+      },
+      {
+        "userId": "D645343B16C4C38",
+        "name": "Admin 2"
+      }
+    ],
+    "blacklisted": []
+  },
+  "join_announcements": {
+    "enabled": true,
+    "owner_message": "Hello, hello {name}! Welcome to TinkX, you're the Owner on it!",
+    "super_admin_message": "Hello, hello {name}! Welcome to TinkX, you're a Super Admin on it!",
+    "admin_message": "Hello, hello {name}! Welcome to TinkX, you're an Admin on it!"
+  },
+  "asset_catalog": {
+    "base_url": "https://raw.githubusercontent.com/Nschnitzler10-png/TinkX-API/main/assets/",
+    "items": [
+      { "name": "Bazooka", "bundle": "bazooka", "prefab": "bazooka" },
+      { "name": "Crown", "bundle": "crown", "prefab": "crown" },
+      { "name": "Overkill Gun", "bundle": "overkillgun", "prefab": "overkillgun" },
+      { "name": "Banhammer", "bundle": "banhammer", "prefab": "banhammer" },
+      { "name": "Wings", "bundle": "wings", "prefab": "wings" },
+      { "name": "Travis Scott", "bundle": "travis", "prefab": "travis" },
+      { "name": "Cherry Bomb", "bundle": "cherrybomb", "prefab": "beam" }
+    ]
+  }
+}
